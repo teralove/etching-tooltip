@@ -1,4 +1,4 @@
-module.exports = function AccessoryRelentlessEtchingTooltip(dispatch) {
+module.exports = function EtchingTooltip(dispatch) {
     dispatch.hook('S_SHOW_ITEM_TOOLTIP', 9, (event) => {
         if ((event.etching2 - 4010301) % 2 == 0) {
             event.etching3 = event.etching1
